@@ -19,6 +19,7 @@
             meals = await res.json();
         }
     }
+
     // Fetch data once on component mount
     onMount(async () => {
         await fetchMeals();

@@ -4,6 +4,7 @@
     let { meal }: { meal: Meal } = $props();
 </script>
 
+
 <div class="food-card">
     <div class="food-card">
         <h2>{meal.name}</h2>

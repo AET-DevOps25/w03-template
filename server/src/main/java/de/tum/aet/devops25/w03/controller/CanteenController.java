@@ -32,3 +32,4 @@ public class CanteenController {
         return ResponseEntity.ok(todayMeals);
     }
 }
+

@@ -62,6 +62,7 @@ public class CanteenControllerTest {
         getList("/{canteenName}/today", HttpStatus.NO_CONTENT, Dish.class, "mensa-garching");
     }
 
+
     @Test
     public void testGetTodayMeals_ReturnsOkWithMeals() throws Exception {
 // Arrange
