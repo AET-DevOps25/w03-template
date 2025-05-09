@@ -27,6 +27,5 @@ public class CanteenController {
     public ResponseEntity<List<Dish>> getTodayMeals(@PathVariable String canteenName) {
         List<Dish> todayMeals = canteenService.getTodayMeals(canteenName);
         return ResponseEntity.ok(todayMeals);
-
     }
 }
